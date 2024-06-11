@@ -1,0 +1,153 @@
+
+  .bgLogin_image {
+    background-image: url("../assets/images/bgLOGIN.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .emojis:hover {
+    transform: rotateY(180deg);
+  }
+  .input_width {
+    width: 324px !important;
+  }
+  .bg_blur {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 550px;
+    border-radius: 5px;
+  }
+  .transformHover:hover {
+    transform: scale(1.2);
+    transition: 0.4s ease-in-out;
+  }
+  .secondary_color {
+    color: #295943;
+  }
+  .secondary_bg {
+    background-color: #295943;
+  }
+  .input::placeholder {
+    color: white !important;
+  }
+  .primary_color {
+    color: #3d3e48;
+  }
+  .fs_15 {
+    font-size: 15px;
+  }
+  .fw_400 {
+    font-weight: 400;
+  }
+  .fw_500 {
+    font-weight: 500;
+  }
+  .fw_600 {
+    font-weight: 600;
+  }
+  .fw_700 {
+    font-weight: 700;
+  }
+  .ff_poppins {
+    font-family: "Cinzel", serif;
+  }
+  .lestStart {
+    background-color: #23540d;
+  }
+  .text_white {
+    color: white !important;
+  }
+  .border_radius {
+    border-radius: 5px;
+  }
+  .img_radius {
+    border-radius: 10px;
+  }
+  .radiusCard {
+    border-radius: 30px;
+  }
+  .line_height {
+    line-height: 1;
+  }
+  .border_none {
+    border: solid 2px white;
+    outline: none;
+  }
+  .border_input {
+    border: solid 2px white;
+    outline: none;
+  }
+  .radius_13 {
+    border-radius: 13px;
+  }
+  .none_border {
+    border: hidden !important;
+  }
+  .cursur {
+    cursor: pointer;
+  }
+  .ouline_none {
+    outline: none;
+  }
+  .img_height {
+    height: 420px;
+  }
+  .transparent {
+    background: transparent !important;
+  }
+  .border_white {
+    border: solid 2px white !important;
+  }
+  .boxShadow:hover {
+    box-shadow: 15px 15px 20px #bebebe, -15px -15px 20px #ffffff;
+  }
+  .bg_color {
+    background-color: #23540d;
+  }
+  .hoverColor:hover {
+    color: #295943 !important;
+  }
+  .imgSize {
+    max-width: 100%;
+    height: 250px;
+  }
+  .width_400 {
+    width: 400px;
+    outline: none;
+    border: solid 3px white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .right_radius {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+  }
+  .whitePlaceholder::placeholder {
+    color: white;
+  }
+  
+  .saveHover:hover {
+    transform: scale(1.1) rotate(10deg);
+  }
+  .bg_secondary {
+    background-color: #295943;
+  }
+  @media only screen and (max-width: 600px) {
+    .img_height {
+      height: 200px;
+    }
+    .bghome_image {
+      height: 460px;
+    }
+    .input_width {
+      width: 290px;
+    }
+    .width_400 {
+      width: 200px;
+    }
+    .bg_blur {
+      width: 290px;
+    }
+  }
+  
